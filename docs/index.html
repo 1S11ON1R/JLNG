@@ -1,1 +1,191 @@
-화이팅
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b0b">
+<title>Documentation | JLNG</title>
+
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #080b0b;
+  --panel: #111918;
+  --mint: #16e6c4;
+  --text: #f4f8f6;
+  --muted: #9aaba5;
+  --line: #293832;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--mint);
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 6%;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: white;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.brand span { color: var(--mint); }
+
+main {
+  width: min(900px, 88%);
+  margin: auto;
+}
+
+.hero { padding: 75px 0 45px; }
+
+.tag {
+  color: var(--mint);
+  font: 12px monospace;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: clamp(42px, 9vw, 76px);
+  line-height: 1.05;
+  letter-spacing: -4px;
+  margin: 20px 0;
+}
+
+h1 span { color: var(--mint); }
+
+p { color: var(--muted); }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 25px;
+  margin: 18px 0;
+}
+
+.panel h2 { margin-top: 0; }
+
+.status {
+  color: var(--mint);
+  font: 11px monospace;
+  letter-spacing: 1px;
+}
+
+.topic {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.topic:last-child { border: 0; }
+
+.topic b { color: var(--text); }
+
+footer {
+  margin-top: 70px;
+  padding: 25px 6%;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font: 11px monospace;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="brand" href="../">JLNG<span>.</span></a>
+  <a href="../">← Home</a>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="tag">JLNG / DOCUMENTATION</div>
+
+  <h1>
+    Learn the language.<br>
+    <span>Build connections.</span>
+  </h1>
+
+  <p>
+    Welcome to the official JLNG documentation.
+    Explore the language, compiler, and interoperability vision.
+  </p>
+</section>
+
+<section class="panel">
+  <div class="status">CURRENT STATUS · EARLY DEVELOPMENT</div>
+
+  <h2>Documentation is being prepared.</h2>
+
+  <p>
+    JLNG is currently under active development.
+    Official documentation will be expanded as language
+    specifications and compiler features are verified.
+  </p>
+</section>
+
+<section class="panel">
+  <h2>Documentation roadmap</h2>
+
+  <div class="topic">
+    <b>01 · Getting Started</b>
+    <p>Installation, development environment, and your first JLNG program.</p>
+  </div>
+
+  <div class="topic">
+    <b>02 · Language Reference</b>
+    <p>Syntax, data types, expressions, conditions, loops, and functions.</p>
+  </div>
+
+  <div class="topic">
+    <b>03 · Compiler Guide</b>
+    <p>Compiler architecture, commands, diagnostics, and build process.</p>
+  </div>
+
+  <div class="topic">
+    <b>04 · Language Bridges</b>
+    <p>Integration with Python, JavaScript, C, and other ecosystems as support develops.</p>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Explore the project</h2>
+
+  <p>
+    Follow the development of JLNG through its official source repository.
+  </p>
+
+  <a href="https://github.com/1S11ON1R/JLNG">
+    GitHub Repository ↗
+  </a>
+</section>
+
+</main>
+
+<footer>
+  JLNG · ONE TO OTHERS
+</footer>
+
+</body>
+</html>
