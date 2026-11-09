@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b0b">
+<meta name="description" content="Official JLNG downloads and releases.">
+<title>Download | JLNG</title>
+
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #080b0b;
+  --panel: #111918;
+  --mint: #16e6c4;
+  --text: #f4f8f6;
+  --muted: #9aaba5;
+  --line: #293832;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  line-height: 1.7;
+}
+a { color: var(--mint); text-decoration: none; }
+header {
+  padding: 20px 6%;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  color: white;
+  font-size: 23px;
+  font-weight: 900;
+}
+.brand span { color: var(--mint); }
+main {
+  width: min(850px, 88%);
+  margin: auto;
+}
+.hero { padding: 75px 0 45px; }
+.tag {
+  color: var(--mint);
+  font: 12px monospace;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: clamp(42px, 9vw, 76px);
+  line-height: 1.05;
+  letter-spacing: -4px;
+  margin: 20px 0;
+}
+h1 span { color: var(--mint); }
+p { color: var(--muted); }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 25px;
+  margin: 18px 0;
+}
+.status {
+  display: inline-block;
+  color: var(--mint);
+  border: 1px solid #23685a;
+  border-radius: 4px;
+  padding: 5px 9px;
+  font: 11px monospace;
+}
+.button {
+  display: inline-block;
+  background: var(--mint);
+  color: #041310;
+  padding: 12px 17px;
+  border-radius: 5px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.button.secondary {
+  background: transparent;
+  color: var(--mint);
+  border: 1px solid var(--mint);
+  margin-left: 8px;
+}
+.note {
+  border-left: 3px solid var(--mint);
+  padding-left: 15px;
+}
+footer {
+  margin-top: 70px;
+  padding: 25px 6%;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font: 11px monospace;
+}
+@media(max-width:480px) {
+  .button.secondary { margin-left: 0; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="brand" href="../">JLNG<span>.</span></a>
+  <a href="../">← Home</a>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="tag">JLNG / DOWNLOAD CENTER</div>
+
+  <h1>
+    Get JLNG.<br>
+    <span>Build something new.</span>
+  </h1>
+
+  <p>
+    Official releases, compiler builds, and development tools
+    will be distributed here.
+  </p>
+</section>
+
+<section class="panel">
+  <span class="status">EARLY DEVELOPMENT</span>
+
+  <h2>JLNG v1.0.0</h2>
+
+  <p>
+    The first stable release is currently in development.
+    Official installation packages will be published
+    after testing and release verification.
+  </p>
+
+  <p><strong>Release status:</strong> In progress</p>
+  <p><strong>Stable downloads:</strong> Not available yet</p>
+
+  <a class="button" href="https://github.com/1S11ON1R/JLNG/releases">
+    View GitHub Releases ↗
+  </a>
+</section>
+
+<section class="panel">
+  <h2>What will be available?</h2>
+
+  <p><strong>01 · JLNG Compiler</strong><br>
+  The official compiler and its required runtime components.</p>
+
+  <p><strong>02 · Development Tools</strong><br>
+  Tools and utilities for writing and building JLNG projects.</p>
+
+  <p><strong>03 · Source Code</strong><br>
+  Public source code and version history.</p>
+</section>
+
+<section class="panel">
+  <h2>Stay connected.</h2>
+
+  <p>
+    Follow the development process and check the official
+    repository for updates.
+  </p>
+
+  <div class="note">
+    <p>
+      Only verified official releases will be listed here.
+      Do not treat experimental builds as stable releases.
+    </p>
+  </div>
+
+  <a class="button secondary"
+     href="https://github.com/1S11ON1R/JLNG">
+    GitHub Repository ↗
+  </a>
+</section>
+
+</main>
+
+<footer>
+  JLNG · ONE TO OTHERS
+</footer>
+
+</body>
+</html>
